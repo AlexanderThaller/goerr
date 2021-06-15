@@ -1,0 +1,13 @@
+[package]
+name = "goerr"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.41"
+format_serde_error = "0.2.0"
+itertools = "0.10.1"
+pretty_assertions = "0.7.2"
+thiserror = "1.0.25"
